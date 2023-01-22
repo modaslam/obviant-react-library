@@ -1,5 +1,20 @@
 .accordion-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-item {
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.accordion-item-title {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.accordion-item-content {
+  padding: 1rem;
+}

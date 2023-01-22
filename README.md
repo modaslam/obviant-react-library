@@ -25,6 +25,10 @@ class Example extends Component {
 }
 ```
 
+### Doc
+
+Use command `npm run doc` to generate JSDoc for the components inside root directory in *docs* folder
+
 ## License
 
 MIT © [modaslam](https://github.com/modaslam)

@@ -12,6 +12,7 @@
     "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
+    "@storybook/addon-knobs": "^6.4.0",
     "@tabler/icons": "^1.119.0",
     "obviant-react-library": "file:..",
     "react": "file:../node_modules/react",

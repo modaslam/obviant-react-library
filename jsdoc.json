@@ -1,0 +1,21 @@
+{
+  "source": {
+    "include": ["src"],
+    "exclude": ["node_modules"],
+    "includePattern": ".js$"
+  },
+  "plugins": ["plugins/markdown"],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true
+    },
+    "path": "node_modules/jsdoc-template/publish"
+  },
+  "opts": {
+    "encoding": "utf8",
+    "destination": "docs",
+    "recurse": true
+  }
+}
