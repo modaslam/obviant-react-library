@@ -1,0 +1,4 @@
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+}
