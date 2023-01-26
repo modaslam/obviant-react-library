@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Accordion.css'
+import './accordion.css'
 
 /**
  * Accordion component that allows to toggle the visibility of its children components
