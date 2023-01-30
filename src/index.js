@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from './styles.module.css'
-
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { Accordion } from './components/accordion/Accordion'
+export { AccordionItem } from './components/accordion/AccordionItem'
+export { Modal } from './components/modal/Modal'
+export { Timeline } from './components/timeline/'
+export { TimelineItem } from './components/timeline/TimelineItem'
