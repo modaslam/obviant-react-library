@@ -8,8 +8,9 @@ import './breadcrumb.css'
  * @param {string} items.label - The text to display for the item.
  * @param {string} [items.url] - The URL to link to when the item is clicked. If not provided, the item is not clickable.
  * @param {boolean} [items.active=false] - If true, the item is displayed as active and is not clickable.
+ * @param {string} [separator="/"] - The separator to use between breadcrumb items.
  */
-const Breadcrumb = ({ items }) => {
+const Breadcrumb = ({ items, separator = '/' }) => {
   return (
     <nav aria-label='breadcrumb'>
       <ol className='breadcrumb'>
@@ -20,7 +21,7 @@ const Breadcrumb = ({ items }) => {
           >
             {item.active ? item.label : <a href={item.url}>{item.label}</a>}
             {index !== items.length - 1 ? (
-              <span className='breadcrumb-separator'>/</span>
+              <span className='breadcrumb-separator'>{separator}</span>
             ) : null}
           </li>
         ))}
@@ -39,7 +40,11 @@ Breadcrumb.propTypes = {
       url: PropTypes.string,
       active: PropTypes.bool
     })
-  ).isRequired
+  ).isRequired,
+  /**
+   * The separator to use between breadcrumb items.
+   */
+  separator: PropTypes.string
 }
 
 export default Breadcrumb
