@@ -1,0 +1,38 @@
+.skeleton {
+  background-color: #e1e1e1;
+  display: inline-block;
+  overflow: hidden;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+.rectangular {
+  border-radius: 0;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+.rounded {
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+.content {
+  background-color: #ccc;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
