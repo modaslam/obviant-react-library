@@ -1,0 +1,123 @@
+:root {
+  --primary-color: #0074d9;
+  --secondary-color: #333;
+  --border-color: #ccc;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+  color: var(--primary-color);
+  border: 1px solid var(--border-color);
+}
+
+.button-outline {
+  border: 1px solid var(--border-color);
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+
+.button-filled {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.button-subtle {
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+
+.button-subtle-no-border {
+  border: none;
+}
+
+.button-iconOnly {
+  padding: 10px;
+}
+
+.button-sm {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.button-md {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.button-lg {
+  font-size: 20px;
+  padding: 15px 30px;
+}
+
+.button-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.button-color-outline-primary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.button-color-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.button-color-outline-secondary {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.button-color-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.button-color-outline-purple {
+  border-color: purple;
+  color: purple;
+}
+
+.button-color-purple {
+  background-color: purple;
+  color: #fff;
+}
+
+.button-color-outline-green {
+  border-color: green;
+  color: green;
+}
+
+.button-color-green {
+  background-color: green;
+  color: #fff;
+}
+
+.button-color-outline-yellow {
+  border-color: rgb(243, 243, 17);
+  color: rgb(243, 243, 17);
+}
+
+.button-color-yellow {
+  background-color: rgb(243, 243, 17);
+  color: var(--secondary-color);
+}
+
+.button-color-outline-red {
+  border-color: red;
+  color: red;
+}
+
+.button-color-red {
+  background-color: red;
+  color: #fff;
+}
