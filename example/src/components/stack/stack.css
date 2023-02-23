@@ -1,0 +1,24 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack-xsmall > .stack-item {
+  margin-bottom: 0.5rem;
+}
+
+.stack-small > .stack-item {
+  margin-bottom: 1rem;
+}
+
+.stack-medium > .stack-item {
+  margin-bottom: 1.5rem;
+}
+
+.stack-large > .stack-item {
+  margin-bottom: 2rem;
+}
+
+.stack-xlarge > .stack-item {
+  margin-bottom: 3rem;
+}
