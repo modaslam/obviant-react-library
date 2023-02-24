@@ -1,6 +1,6 @@
 # obviant-react-library
 
-> Library is still in progress
+> Library is still in progress with more components on the way.
 
 [![NPM](https://img.shields.io/npm/v/obviant-react-library.svg)](https://www.npmjs.com/package/obviant-react-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
