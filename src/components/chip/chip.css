@@ -1,0 +1,52 @@
+.chip {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+.chip-text {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.chip-delete {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+.chip-delete:hover svg {
+  fill: #555;
+}
+
+.chip-delete svg {
+  fill: white;
+  width: 16px;
+  height: 16px;
+}
+
+/* color prop styles */
+.chip[color='red'] {
+  background-color: #f44336;
+}
+
+.chip[color='blue'] {
+  background-color: #2196f3;
+}
+
+.chip[color='green'] {
+  background-color: #4caf50;
+}
+
+.chip[color='yellow'] {
+  background-color: #ffeb3b;
+}
